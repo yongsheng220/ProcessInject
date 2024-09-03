@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\peconv">
+      <UniqueIdentifier>{7d7dc53d-01e9-4371-b6be-ae3ec80f37bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\peconv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\buffer_util.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\caves.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\delayed_imports_loader.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exceptions_parser.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exported_func.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exports_lookup.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exports_mapper.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\file_util.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\find_base.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\fix_imports.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\function_resolver.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\hooks.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\imports_loader.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\imports_uneraser.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\load_config_defs.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\load_config_util.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_dumper.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_hdrs_helper.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_loader.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_mode_detector.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_raw_to_virtual.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_virtual_to_raw.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\peb_lookup.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\relocate.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\remote_pe_reader.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\resource_parser.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\resource_util.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\tls_parser.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\unicode.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\util.h">
+      <Filter>头文件\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
